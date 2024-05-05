@@ -45,8 +45,8 @@ def save_to_csv(data, output_folder):
     print(f"Data saved to {output_filename}") #Publishes a CVS File with the current date as the title to a given path
 
 if __name__ == "__main__":
-    folder_path = r"C:\Users\Student\OneDrive\Desktop\Money\Tesco Credit Card Statements"
-    output_folder = r"C:\Users\Student\OneDrive\Desktop\Money"
+    folder_path = r"#PATH"
+    output_folder = r"#PATH"
 
     extracted_data = extract_tables_from_pdfs(folder_path)
     if extracted_data is not None:
